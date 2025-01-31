@@ -1,0 +1,197 @@
+/* Insert/Translate button */
+.ts-button-colorful {
+    border-radius: 5px;
+}
+
+/* OK button */
+
+.ts-document-ok-button {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #2a579a !important;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ts-document-ok-button:hover {
+    background-color: #234983 !important;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ts-document-ok-button:active {
+    background-color: #18335a !important;
+}
+
+/* Cancel button */
+.ts-document-cancel-button {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Mac default background color */
+.ms-Pivot, .ts-pivot-lookup-component, .ts-pivot-document-component, .ts-pivot-test-component {
+    background-color: #f2f2f2 !important;
+}
+
+/* Applying a consistent inset around left/right edges */
+.ts-pivot-container .ms-FocusZone {
+    left: -4px !important;
+}
+
+.ts-insert-button-container .ts-float-right {
+    right: -2px !important;
+}
+
+.ts-insert-focus:focus {
+    border: 2px solid lightskyblue;
+}
+
+.ts-control-button:focus {
+    border: 2px solid lightskyblue;
+}
+
+.ts-clear-button:focus {
+    border: 2px solid lightskyblue;
+}
+
+/* Target textbox in lookup component container */
+.ts-alignment-view-tgt {
+    border: 1px solid #cccccc;
+}
+
+/* Alignment view which font size needs to match textarea font-size */
+.ts-alignment-view {
+    font-size: 12px !important;
+}
+
+/* Clear button for source text in lookup component */
+button.ts-clear-button > div > i.ms-Button-icon, button.ms-MessageBar-dismissal > div > i.ms-Button-icon {
+    color: white !important;
+    font-size: 9px !important;
+    font-weight: 800 !important;
+    background-color: #7a7a7a !important;
+    border-radius: 50% !important;
+    width: 14px !important;
+    height: 15px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* --- Message bar --- */
+
+.ms-MessageBar-icon > i.ms-Icon {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+#MessageBar1 > span > span {
+    font-size: 12px !important;
+}
+
+.ms-MessageBar-content {
+    padding-top: 20px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Align the two language menus */
+
+#lookupTargetLangMenu {
+    margin-left: 18px;
+}
+
+#documentTargetLangMenu {
+    margin-left: 18px;
+}
+
+/* --- Below are font size specification for specific part of UI --- */
+
+/* Pivo label */
+.ms-Pivot-text {
+    font-size: 12px;
+}
+
+/* Language menu label */
+.ts-translation-menu-label {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+/* Language menu item */
+.ts-translation-menu-list {
+    font-size: 12px;
+}
+
+/* Source text in lookup component */
+#translation-textfield-idsrc {
+    font-size: 12px !important;
+}
+
+/* Source textbox in lookup component  */
+#ts-alignment-view-idsrc {
+    font-size: 12px !important;
+}
+
+/* Target textbox in lookup component  */
+#ts-alignment-view-idtgt {
+    font-size: 12px !important;
+}
+
+/* Small font in general (mainly used by footer labels) */
+.ts-small-font {
+    font-size: 12px !important;
+}
+
+/* Description in document tab */
+.ts-document-text-desc > .ms-Label {
+    font-size: 12px !important;
+}
+
+/* Description after completion of translation */
+.ts-completion-desc {
+    font-size: 12px !important;
+}
+
+/* Source <-> target toggle button */
+button.ts-control-button > div > i.ms-Button-icon {
+    font-size: 16px !important;
+}
+
+/* Suggestion link */
+button.ts-suggestion-link {
+    font-size: 14px !important;
+}
+
+/* Collapse button for alt translation */
+button.ts-collapse-button > div > i.ms-Button-icon {
+    font-size: 10px !important;
+}
+
+/* Title for alto translation */
+label.ts-collapsible-component-title {
+    font-size: 12px !important;
+}
+
+label.ts-alternate-translations-pos.ts-no-padding,
+label.ts-altTranslation-translation.ts-no-padding,
+label.ts-inline-important,
+span.ts-altTranslation-example-term
+{
+    font-size: 12px !important;
+}
+
+/* --- Test page --- */
+
+.ts-test-pivot {
+    font-size: 12px !important;
+}
+
+/* Insert/Translate button */
+td > button {
+    border-radius: 5px;
+}
+
+/* Consent page button  */
+.ts-upp-accept-button {
+    border-radius: 5px;
+}
